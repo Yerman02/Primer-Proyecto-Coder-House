@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0
+    ;
+    overflow-x: hidden;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    color: black;
+    background-color: #47e627;
+
+}
+.navbar{
+    background-color: black;
+}
+.index_logos{
+width: 50px;
+height:50px ;
+}
+.fotos_footer{
+    width: 15%;
+    height: 15%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+footer{
+    background-color: #7C7A7A;
+}
+.h1_index{
+    border: black;
+    color: rgb(0, 0, 0);
+    border: black solid 1px;
+    background-color: #47e627;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow-y: hidden;
+}
+
+
+@media  (min-width:300px)  {
+.cards_inline{
+display:inline-block;
+justify-content: space-around;
+align-items: center;
+margin-top: 5vh;
+margin-left: 5vh;
+margin-bottom: 5vh;
+}
+.list-group-item{
+    overflow-y: hidden;
+}
+.yeezy-flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.botones_cards_index{
+    display: flex;
+    justify-content: center;
+    width: 15vh;
+}
+.card-title{
+    overflow-y: hidden;
+}
+.fotos_carousel{
+    align-items: center;
+    width: 20vh;
+    height: 20vh;
+    margin-bottom: 2vh;
+}
+.carousel-item{
+    height: 60vh;
+}
+
+.card-body{
+    overflow-y: hidden;
+}
+.list-group{
+    overflow-y: hidden;
+}
+.fotos-adidas-hoodies{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
+@media(min-width:768px){
+
+.fotos_carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cards_totales{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3vh;
+}
+.fotos-adidas-hoodies{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 6vh;
+    margin-top: 5vh;
+
+}
+.carousel-item{
+    height: 64vh;
+    overflow-y: hidden;
+}
+.carousel{
+    width: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 25%;
+}
+.navbar{
+    width: 100%;
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.yeezy-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5vh;
+    margin-bottom: 6vh;
+}
+#carouselExampleControls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+}

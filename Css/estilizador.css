@@ -141,10 +141,4 @@ margin-left: 25%;
     margin-top: 5vh;
     margin-bottom: 6vh;
 }
-#carouselExampleControls{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-}
 }
